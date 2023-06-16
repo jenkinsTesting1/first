@@ -18,5 +18,6 @@ output application/json
 "checking jenkins for CLOUDHUB"]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
+		<logger level="INFO" doc:name="Logger" doc:id="f60a91a7-b672-43ba-8668-082cc1894341" message="#[payload]"/>
 	</flow>
 </mule>
